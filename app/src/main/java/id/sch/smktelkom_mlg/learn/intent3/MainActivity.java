@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             ImageView iv = (ImageView) findViewById(R.id.imageViewcamera);
             iv.setImageBitmap(bitmap);
 
+
         }
 
 
