@@ -34,8 +34,26 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        findViewById(R.id.imageViewbrowser).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                openweb("https://classroom.google.com/u/1/c/MTkwMjg0ODQwNFpa");
+
+            }
+        });
 
 
+
+    }
+
+    private void openweb(String url) {
+
+        Uri weppage = Uri.parse(url);
+
+        Intent intent = new Intent(Intent.ACTION_VIEW, weppage);
+        if (intent.resolveActivity(getPackageManager()) != null) ;
+        startActivity(intent);
 
     }
 

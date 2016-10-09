@@ -20,7 +20,7 @@
         android:src="@drawable/ic_call_black_24dp"/>
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewcamera"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_weight="0.13"
@@ -36,7 +36,7 @@
 
     <ImageView
 
-        android:id="@+id/imageView4"
+        android:id="@+id/imageViewbrowser"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_weight="0.13"
